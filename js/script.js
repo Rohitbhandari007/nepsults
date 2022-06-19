@@ -1,7 +1,7 @@
 
 function generate(){
 
-    url = 'http://127.0.0.1:8000/nepsultsapi/'
+    url = 'https://nepinsultsapi.herokuapp.com/api/'
     requestOptions = {
         method:'GET',
         headers:{'Content-Type':'application/json',},
